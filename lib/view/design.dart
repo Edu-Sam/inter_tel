@@ -43,54 +43,6 @@ class DesignState extends State<Design>{
                    )
                  ),
                ),
-              /* Positioned(
-                 top: 198,
-                 child: Expanded(
-                   child: Container(
-                       width: MediaQuery.of(context).size.width,
-
-                       decoration: BoxDecoration(
-                           color: Colors.white,
-                           borderRadius: BorderRadius.only(topLeft: Radius.circular(20.0),topRight: Radius.circular(20.0)),
-                           boxShadow: [
-                             BoxShadow(
-                                 offset: const Offset(1.0,1.0),
-                                 spreadRadius: 1.0,
-                                 blurRadius: 1.0,
-                                 color: Colors.black12
-                             )
-                           ]
-                       ),
-                       child: Padding(
-                         padding: EdgeInsets.only(top: 50.0),
-                         child: Column(
-                           children: [
-                             Padding(
-                               padding: EdgeInsets.only(top: 10.0),
-                               child: Text(Provider.of<Preferences>(context,listen: false).user!.name,
-                                 style: TextStyle(color: Colors.black87,fontSize: 24,
-                                     fontWeight: FontWeight.w600),),
-                             ),
-                             Padding(
-                               padding: EdgeInsets.only(top: 10.0),
-                               child: Text(Provider.of<Preferences>(context,listen: false).user!.email,
-                                 style: TextStyle(color: Colors.black54,fontSize: 16,
-                                     fontWeight: FontWeight.w500),),
-                             ),
-
-                             Padding(
-                               padding: EdgeInsets.only(top: 10.0),
-                               child: Text(Provider.of<Preferences>(context,listen: false).user!.phone_number,
-                                 style: TextStyle(color: Colors.black54,fontSize: 14,
-                                     fontWeight: FontWeight.w500),),
-                             ),
-
-                           ],
-                         ),
-                       )
-                   ),
-                 )
-               )*/
                Expanded(
                child: Container(
                  width: MediaQuery.of(context).size.width,

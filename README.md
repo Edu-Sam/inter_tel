@@ -1,6 +1,13 @@
 # inter_tel
 
-A new Flutter project.
+A sample application that allows a user to:
+ -Create a profile consisting of the name,email and phone number.
+ -A Profile page that displays the above fields
+ -Fetching of a list of todo items and mapping them to their respective widgets.
+ -Sorting of dictionary  
+
+The application also demonstrates validation and loading UI/UX functionality that 
+provides for an easy and relatable experience
 
 ## Getting Started
 

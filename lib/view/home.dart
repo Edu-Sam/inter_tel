@@ -152,7 +152,7 @@ class HomeState extends State<Home>{
                 children: [
                   Row(
                     children: [
-                      Icon(CupertinoIcons.arrow_down_doc,color: AppConstants.textColor,size: 25,),
+                      Icon(CupertinoIcons.arrow_swap,color: AppConstants.textColor,size: 25,),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 5.0),
                         child: Text('Design',style: TextStyle(color: AppConstants.textColor),),
@@ -195,7 +195,7 @@ class HomeState extends State<Home>{
                 children: [
                   Row(
                     children: [
-                      Icon(CupertinoIcons.gear,color: AppConstants.textColor,size: 25,),
+                      Icon(CupertinoIcons.arrow_right_arrow_left,color: AppConstants.textColor,size: 25,),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 5.0),
                         child: Text('Response',style: TextStyle(color: AppConstants.textColor),),
@@ -238,7 +238,7 @@ class HomeState extends State<Home>{
                 children: [
                   Row(
                     children: [
-                      Icon(CupertinoIcons.gear,color: AppConstants.textColor,size: 25,),
+                      Icon(CupertinoIcons.arrow_down_doc,color: AppConstants.textColor,size: 25,),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 5.0),
                         child: Text('Dictionary',style: TextStyle(color: AppConstants.textColor),),

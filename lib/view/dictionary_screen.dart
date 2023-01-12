@@ -198,8 +198,6 @@ class DictionaryScreenState extends State<DictionaryScreen>{
 
     else{
       setState(() {
-        //dictionary_list=Map.fromEntries(dictionary_list.entries.toList()..sort((e1,e2)=>e1.value.compareTo(e2.value)));
-
         dictionary_list=Map.fromEntries(dictionary_list.entries.toList()..sort((e1,e2)=>e2.value.compareTo(e1.value)));
       });
     }

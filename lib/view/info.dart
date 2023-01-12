@@ -123,6 +123,7 @@ class InfoState extends State<Info>{
                        //     height: 70,
                             child: IntlPhoneField(
                               controller: phone_no_controller,
+                              initialCountryCode: 'KE',
                               validator: (text){
                                 return validation.phoneValidator(text!.completeNumber);
                               },

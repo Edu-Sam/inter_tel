@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import '../constants/module.dart';
-import '../model/module.dart';
-import 'package:provider/provider.dart';
 
 class CircularProgressContainer extends StatelessWidget{
 

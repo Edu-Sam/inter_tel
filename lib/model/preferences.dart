@@ -11,5 +11,4 @@ class Preferences with ChangeNotifier{
   Preferences({required this.info,required this.design,required this.response,required this.dictionary,
   required this.user});
 
- // factory Preferences.fromJson()
 }
